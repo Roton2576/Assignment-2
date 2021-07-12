@@ -16,8 +16,9 @@ header{
     width: 100%;
 }
 nav{
-    width: 870px;
+    width: 100%;
     display: flex;
+    max-width: 870px;
 }
 .idea-image span{
     font-size: 16px;
@@ -188,7 +189,23 @@ hr{
         width: 118%;
     }
     nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-size: 30px;
+        text-align: center;
+    }
+    .idea-image{
+        text-align: center;
+        justify-content: center;
+    }
+    .idea-image span{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .menu-head ul{
+        justify-content: center;
+        margin-right: 30px;
     }
     .top-players h2{
         text-align: center;
@@ -211,6 +228,19 @@ hr{
         flex-direction: column;
         align-items: center;
     }
+    .blogs-items .blogs-items-detail {
+        font-size: 16px;
+        text-align: center;
+    }
+    .blogs-items .blogs-items-detail h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .course-detail h3{
+        font-size: 15px;
+        text-align: center;
+    }
 
     .parent{
         display: grid;
@@ -231,11 +261,23 @@ hr{
     .container{
         width: 100%;
     }
-    header{
+    /* header{
         width: 118%;
-    }
+    } */
     nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-size: 30px;
+        text-align: center;
+    }
+    .idea-image{
+        text-align: center;
+        justify-content: center;
+    }
+    .idea-image span{
+        font-size: 30px;
+        margin-top: 30px;
     }
     .section-title{
         font-weight: bold;
